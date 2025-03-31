@@ -14,6 +14,7 @@ This repository implements mutual information analysis techniques when neural ne
   - WaNet
   - Blend
   - Label-Consistent
+  - Adaptive Blend
 - Includes early stopping and learning rate scheduling
 - Integrates with Weights & Biases for experiment tracking
 - Uses FFCV for efficient data loading
@@ -121,6 +122,7 @@ The project uses a configuration system defined in `config.py`. You can modify t
 2. **WaNet**: Applies spatial transformation
 3. **Blend**: Blends a trigger pattern with the original image
 4. **Label-Consistent**: Uses adversarial perturbations
+5. **Adaptive Blend**: Blend with regularization samples
 
 ## Results
 
